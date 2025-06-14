@@ -46,13 +46,13 @@ def check_list(var: list, var_name: str, options: list=[], min_length: int=0) ->
 
 
 
-from config.personals import *
-def validate_personals() -> None | ValueError | TypeError:
+from config.personal import *
+def validate_personal() -> None | ValueError | TypeError:
     '''
-    Validates all variables in the `/config/personals.py` file.
+    Validates all variables in the `/config/personal.py` file.
     '''
     global __validation_file_path
-    __validation_file_path = "config/personals.py"
+    __validation_file_path = "config/personal.py"
 
     check_string(first_name, "first_name", min_length=1)
     check_string(middle_name, "middle_name")
@@ -216,7 +216,7 @@ def validate_config() -> bool | ValueError | TypeError:
     '''
     Runs all validation functions to validate all variables in the config files.
     '''
-    validate_personals()
+    validate_personal()
     validate_questions()
     validate_search()
     validate_secrets()

@@ -13,7 +13,7 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 version:    24.12.29.12.30
 '''
 
-from personals import *
+from personal import *
 import json
 
 ###################################################### CONFIGURE YOUR RESUME HERE ######################################################

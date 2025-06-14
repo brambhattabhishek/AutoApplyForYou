@@ -16,7 +16,7 @@ version:    24.12.29.12.30
 
 from config.secrets import *
 from config.settings import showAiErrorAlerts
-from config.personals import ethnicity, gender, disability_status, veteran_status
+from config.personal import ethnicity, gender, disability_status, veteran_status
 from config.questions import *
 from config.search import security_clearance, did_masters
 

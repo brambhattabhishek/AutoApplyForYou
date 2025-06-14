@@ -13,7 +13,7 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 '''
 
 
-from config.personals import *
+from config.personal import *
 from config.questions import default_resume_path
 
 
