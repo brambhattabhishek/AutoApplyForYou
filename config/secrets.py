@@ -8,7 +8,7 @@ License:    MIT License
             https://opensource.org/license/mit/
            
             
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
+GitHub:     https://github.com/brambhattabhishek/AutoApplyForYou
 version:    24.12.3.10.30
 '''
 
@@ -17,7 +17,7 @@ version:    24.12.3.10.30
 
 
 # Login Credentials for LinkedIn (Optional)
-username = "username@example.com"       # Enter your username in the quotes
+username = "mse23015@iiitl.ac.in"       # Enter your username in the quotes
 password = "example_password"           # Enter your password in the quotes
 
 
