@@ -8,7 +8,7 @@ License:    MIT License
             https://opensource.org/license/mit/
            
             
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
+GitHub:     https://github.com/brambhattabhishek/AutoApplyForYou
 
 version:    2024.11.28.16.00
 '''
