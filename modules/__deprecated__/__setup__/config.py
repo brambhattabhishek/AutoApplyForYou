@@ -1,6 +1,6 @@
 '''
 Author:     Abhishek Brahmbhatt
-LinkedIn:   https://www.linkedin.com/in/abhishek-brahmbhatt-4a5ba2290/
+LinkedIn:   
 
 Copyright (C) 2025 Abhishek Brahmbhatt
 
@@ -8,7 +8,7 @@ License:    MIT License
             https://opensource.org/license/mit/
            
             
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
+GitHub:     https://github.com/brambhattabhishek/AutoApplyForYou
 
 '''
 
@@ -56,15 +56,15 @@ use_resume_generator = False       # True or False, Note: True or False are case
 # ----------------------------------------------  AUTO APPLIER  ---------------------------------------------- #
 
 # Login Credentials for LinkedIn
-username = "username@example.com"  # Enter your username in the quotes
-password = "example_password"      # Enter your password in the quotes
+username = "mse23015@iiitl.ac.in"  # Enter your username in the quotes
+password = "iiitl@1248"      # Enter your password in the quotes
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer"]
+search_terms = ["Software Engineer", "Software Developer", "Python Developer", "React Developer", "Front End Developer", "Full Stack Developer", "Web Developer"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = ""               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "India"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 
 # >>>>>>>>>>> Job Search Filters <<<<<<<<<<<
@@ -78,7 +78,7 @@ question_3 = []                    # (dynamic multiple select)
 '''
 
 sort_by = ""                       # "Most recent", "Most relevant" or ("" to not select) 
-date_posted = "Past month"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
+date_posted = "Past 24 hours"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
 salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+"
 
 easy_apply_only = True             # True or False, Note: True or False are case-sensitive
@@ -105,13 +105,13 @@ fair_chance_employer = False       # True or False, Note: True or False are case
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Phone number (required), make sure it's valid.
-phone_number = "9876543210"        # Enter your 10 digit number in quotes Eg: "9876543210"
+phone_number = "9054954412"        # Enter your 10 digit number in quotes Eg: "9876543210"
 
 # Give an relative or absolute path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
 default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
 
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
-years_of_experience = "5"          # A number in quotes Eg: "0","1","2","3","4", etc.
+years_of_experience = "1"          # A number in quotes Eg: "0","1","2","3","4", etc.
 
 # Do you need visa sponsorship now or in future?
 require_visa = "No"               # "Yes" or "No"
@@ -125,23 +125,23 @@ us_citizenship = "U.S. Citizen/Permanent Resident"
 website = "https://github.com/GodsScion"                       # "www.example.bio" or "" and so on....
 
 # What to enter in your desired salary question, only enter in numbers inside quotes as some companies only allow numbers
-desired_salary = "120000"          # "80000", "90000", "100000" or "120000" and so on....
+desired_salary = "100000"          # "80000", "90000", "100000" or "120000" and so on....
 
 # Example question: "On a scale of 1-10 how much experience do you have building web or mobile applications? 1 being very little or only in school, 10 being that you have built and launched applications to real users"
 confidence_level = "8"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
 
-current_city = ""                  # If left empty will fill in location of jobs location.
+current_city = "Lucknow"                  # If left empty will fill in location of jobs location.
 
 ## SOME ANNOYING QUESTIONS BY COMPANIES 🫠 ##
 # Address, not so common question but some job applications make it required!
-street = "123 Main Street"
-state = "STATE"
-zipcode = "12345"
-country = "Will Let You Know When Established"
+street = "IT City, Ahamamau"
+state = "Uttar Pradesh"            # Your state in quotes Eg: "California", "Texas", "New York", "Uttar Pradesh", "Maharashtra"
+zipcode = "226002"
+country = "India"
 
-first_name = "Sai"                 # Your first name in quotes Eg: "First", "Sai"
-middle_name = "Vignesh"            # Your name in quotes Eg: "Middle", "Vignesh", ""
-last_name = "Golla"                # Your last name in quotes Eg: "Last", "Golla"
+first_name = "Abhishek"                 # Your first name in quotes Eg: "First", "Sai"
+middle_name = ""            # Your name in quotes Eg: "Middle", "Vignesh", ""
+last_name = "Brahmbhatt"                # Your last name in quotes Eg: "Last", "Golla"
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
 headline = "Headline"
@@ -157,13 +157,13 @@ recent_employer = "Not Applicable" # "", "Lala Company", "Google", "Snowflake", 
 
 ## US Equal Opportunity questions
 # What is your ethnicity or race? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
-ethnicity = "Decline"              # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
+ethnicity = "Asian"              # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
 
 # How do you identify yourself? If left empty as "", tool will not answer the question. However, note that some companies make compulsory to be answered
-gender = "Decline"                 # "Male", "Female", "Other", "Decline" or ""
+gender = "Male"                 # "Male", "Female", "Other", "Decline" or ""
 
 # Are you physically disabled or have a history/record of having a disability? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
-disability_status = "Decline"      # "Yes", "No", "Decline"
+disability_status = "No"      # "Yes", "No", "Decline"
 
 veteran_status = "Decline"         # "Yes", "No", "Decline"
 ##
@@ -245,8 +245,8 @@ stop_date_cycle_at_24hr = True     # True or False, Note: True or False are case
 # ----------------------------------------------  RESUME GENERATOR (Experimental & In Development)  ---------------------------------------------- #
 
 # Login Credentials for ChatGPT
-chatGPT_username = "username@example.com"
-chatGPT_password = "example_password"
+chatGPT_username = "brmabhattabhishek@gmail.com"
+chatGPT_password = "Abhishek195$"
 
 chatGPT_resume_chat_title = "Resume review and feedback."
 
@@ -281,6 +281,6 @@ As an independent developer, I pour my heart and soul into creating tools like t
 Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
 
 Gratefully yours 🙏🏻,
-Sai Vignesh Golla
+Abhishek Brahmbhatt
 '''
 ############################################################################################################
