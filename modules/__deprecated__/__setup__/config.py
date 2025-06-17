@@ -57,7 +57,7 @@ use_resume_generator = False       # True or False, Note: True or False are case
 
 # Login Credentials for LinkedIn
 username = "mse23015@iiitl.ac.in"  # Enter your username in the quotes
-password = "iiitl@1248"      # Enter your password in the quotes
+password = ""      # Enter your password in the quotes
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
@@ -105,7 +105,7 @@ fair_chance_employer = False       # True or False, Note: True or False are case
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Phone number (required), make sure it's valid.
-phone_number = "9054954412"        # Enter your 10 digit number in quotes Eg: "9876543210"
+phone_number = ""        # Enter your 10 digit number in quotes Eg: "9876543210"
 
 # Give an relative or absolute path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
 default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
@@ -122,7 +122,7 @@ us_citizenship = "U.S. Citizen/Permanent Resident"
 
 
 # What is the link to your portfolio website, leave it empty as "", if you want to leave this question unanswered
-website = "https://github.com/GodsScion"                       # "www.example.bio" or "" and so on....
+website = "https://github.com/brambhattabhishek"                       # "www.example.bio" or "" and so on....
 
 # What to enter in your desired salary question, only enter in numbers inside quotes as some companies only allow numbers
 desired_salary = "100000"          # "80000", "90000", "100000" or "120000" and so on....
@@ -246,7 +246,7 @@ stop_date_cycle_at_24hr = True     # True or False, Note: True or False are case
 
 # Login Credentials for ChatGPT
 chatGPT_username = "brmabhattabhishek@gmail.com"
-chatGPT_password = "Abhishek195$"
+chatGPT_password = "Ab"
 
 chatGPT_resume_chat_title = "Resume review and feedback."
 
